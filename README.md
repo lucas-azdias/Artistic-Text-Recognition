@@ -9,5 +9,6 @@ Links relevantes:
 - [Dataset teste B](https://drive.google.com/file/d/1Q7kAqFITGntZAn-HuCh8vQpHTpDkPSAH/view)
 - [Resultados da competição](https://codalab.lisn.upsaclay.fr/competitions/17182#participate)
 
+Métodos:
 - [Método Parseq](https://github.com/baudm/parseq)
 - [Método FAST](https://github.com/czczup/FAST)

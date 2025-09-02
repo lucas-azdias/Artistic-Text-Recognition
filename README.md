@@ -12,6 +12,7 @@
 - [Dataset teste A](https://drive.google.com/file/d/15tkLbdXYzIILVWIg4kqjPMJ51p-vD2Ej/view)
 - [Dataset teste B](https://drive.google.com/file/d/1Q7kAqFITGntZAn-HuCh8vQpHTpDkPSAH/view)
 - [Resultados da competição](https://codalab.lisn.upsaclay.fr/competitions/17182#participate)
+- [Dataset compilado](https://github.com/lucas-azdias/Artistic-Text-Recognition-Dataset)
 - [Azure DevOps](https://dev.azure.com/pucpr-estudantes/prj-bcc-8u-e07)
 
 ## Métodos

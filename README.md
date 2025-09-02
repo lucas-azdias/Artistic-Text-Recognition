@@ -1,5 +1,7 @@
 # Avaliando Abordagens do Estado da Arte para Reconhecimento de Texto Artístico
-**(Evaluating State-of-the-Art Approaches to Artistic Text Recognition)**
+
+*Evaluating State-of-the-Art Approaches to Artistic Text Recognition*
+
 ICDAR 2024 Competition on Artistic Text Recognition
 
 ---

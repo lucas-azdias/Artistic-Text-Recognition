@@ -15,4 +15,5 @@ Métodos:
 - [Método Parseq](https://github.com/baudm/parseq)
 
 Relacionados:
+- [WordArt (Reconhecimento guiado por cantos) - ICDAR 2024](https://www.researchgate.net/publication/362409977_Toward_Understanding_WordArt_Corner-Guided_Transformer_for_Scene_Text_Recognition)
 - [FAST (Detector de textos em cenários)](https://github.com/czczup/FAST)

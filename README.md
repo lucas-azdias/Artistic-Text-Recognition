@@ -12,10 +12,10 @@ ICDAR 2024 Competition on Artistic Text Recognition
 - [Azure DevOps](https://dev.azure.com/pucpr-estudantes/prj-bcc-8u-e07)
 
 ## Métodos
-- [Método SVTRv2](https://github.com/Topdu/OpenOCR/blob/main/configs/rec/svtrv2/readme.md)
-- [Método ViTSTR](https://github.com/kwon-evan/ViTSTR)
-- [Método Parseq](https://github.com/baudm/parseq)
+- [Método SVTRv2](https://github.com/Topdu/OpenOCR/blob/main/configs/rec/svtrv2/readme.md) ([PAPER](https://arxiv.org/pdf/2411.15858))
+- [Método ViTSTR](https://github.com/kwon-evan/ViTSTR) ([PAPER](https://arxiv.org/pdf/2105.08582))
+- [Método Parseq](https://github.com/baudm/parseq) ([PAPER](https://arxiv.org/pdf/2207.06966))
 
 ## Relacionados
-- [WordArt (Reconhecimento guiado por cantos) - ICDAR 2024](https://www.researchgate.net/publication/362409977_Toward_Understanding_WordArt_Corner-Guided_Transformer_for_Scene_Text_Recognition)
-- [FAST (Detector de textos em cenários)](https://github.com/czczup/FAST)
+- [WordArt (Reconhecimento de textos em cenários guiado por cantos)](https://github.com/xdxie/WordArt) ([PAPER](https://arxiv.org/pdf/2208.00438))
+- [FAST (Detector de textos em cenários)](https://github.com/czczup/FAST) ([PAPER](https://arxiv.org/pdf/2111.02394))

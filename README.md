@@ -1,4 +1,4 @@
-# Avaliando Abordagens do Estado da Arte para Reconhecimento de Texto Artístico
+# Avaliando Abordagens do Estado da Arte para Reconhecimento de Textos Artísticos
 
 *Evaluating State-of-the-Art Approaches to Artistic Text Recognition*
 

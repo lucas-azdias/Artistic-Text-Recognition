@@ -8,7 +8,7 @@
 
 ## Links relevantes
 - [Competição](https://sites.google.com/view/icdar-2024-competition-wordart/)
-- [Resultados da competição](https://codalab.lisn.upsaclay.fr/competitions/17182#participate)
+- [Resultados da competição](https://codalab.lisn.upsaclay.fr/competitions/17182#results)
 - [Azure DevOps](https://dev.azure.com/pucpr-estudantes/prj-bcc-8u-e07)
 
 ## Dataset

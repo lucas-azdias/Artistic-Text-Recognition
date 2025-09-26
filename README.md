@@ -12,7 +12,7 @@
 - [Azure DevOps](https://dev.azure.com/pucpr-estudantes/prj-bcc-8u-e07)
 
 ## Dataset
-- [Dataset compilado](https://github.com/lucas-azdias/Artistic-Text-Recognition-Dataset)
+- [Dataset compilado](https://github.com/lucas-azdias/WordArt-V1.5-Dataset)
 - [Dataset treino](https://drive.google.com/file/d/1Lq6xKNbD7Kvs-i1myJPmwBLLG5YnoM9N/view)
 - [Dataset teste A](https://drive.google.com/file/d/15tkLbdXYzIILVWIg4kqjPMJ51p-vD2Ej/view)
 - [Dataset teste B](https://drive.google.com/file/d/1Q7kAqFITGntZAn-HuCh8vQpHTpDkPSAH/view)

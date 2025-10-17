@@ -14,8 +14,8 @@
 ## Dataset
 - [Dataset compilado](https://github.com/lucas-azdias/WordArt-V1.5-Dataset)
 - [Dataset treino](https://drive.google.com/file/d/1Lq6xKNbD7Kvs-i1myJPmwBLLG5YnoM9N/view)
-- [Dataset teste A](https://drive.google.com/file/d/15tkLbdXYzIILVWIg4kqjPMJ51p-vD2Ej/view)
-- [Dataset teste B](https://drive.google.com/file/d/1Q7kAqFITGntZAn-HuCh8vQpHTpDkPSAH/view)
+- [Dataset teste A (validação)](https://drive.google.com/file/d/15tkLbdXYzIILVWIg4kqjPMJ51p-vD2Ej/view)
+- [Dataset teste B (teste)](https://drive.google.com/file/d/1Q7kAqFITGntZAn-HuCh8vQpHTpDkPSAH/view)
 
 ## Métodos
 - [Método PARSeq](https://github.com/baudm/parseq) [[PAPER](https://arxiv.org/pdf/2207.06966)]

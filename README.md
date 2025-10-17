@@ -20,7 +20,7 @@
 ## Métodos
 - [Método PARSeq](https://github.com/baudm/parseq) [[PAPER](https://arxiv.org/pdf/2207.06966)]
 - [Método SVTRv2](https://github.com/Topdu/OpenOCR/blob/main/configs/rec/svtrv2/readme.md) [[PAPER](https://arxiv.org/pdf/2411.15858)]
-- [Método MAERec]([https://github.com/kwon-evan/ViTSTR](https://github.com/Mountchicken/Union14M/tree/main?tab=readme-ov-file#5-maerec)) [[PAPER](https://arxiv.org/pdf/2305.04619)]
+- [Método MAERec](https://github.com/Mountchicken/Union14M/tree/main?tab=readme-ov-file#5-maerec) [[PAPER](https://arxiv.org/pdf/2305.04619)]
 
 ## Relacionados
 - [WordArt (Reconhecimento de textos em cenários guiado por cantos)](https://github.com/xdxie/WordArt) [[PAPER](https://arxiv.org/pdf/2208.00438)]

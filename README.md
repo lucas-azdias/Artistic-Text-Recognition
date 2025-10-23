@@ -28,5 +28,5 @@
 - [Dicionário para correção de erros pós-OCR](https://dl.acm.org/doi/abs/10.1145/3453476) [(PAPER)](https://dl.acm.org/doi/pdf/10.1145/3453476)
 
 ## Relacionados
-- [WordArt (Reconhecimento de textos em cenários guiado por cantos)](https://github.com/xdxie/WordArt) [[PAPER](https://arxiv.org/pdf/2208.00438)]
-- [FAST (Detector de textos em cenários)](https://github.com/czczup/FAST) [[PAPER](https://arxiv.org/pdf/2111.02394)]
+- [WordArt (Reconhecimento de textos em cenários guiado por cantos)](https://github.com/xdxie/WordArt) [(PAPER)](https://arxiv.org/pdf/2208.00438)
+- [FAST (Detector de textos em cenários)](https://github.com/czczup/FAST) [(PAPER)](https://arxiv.org/pdf/2111.02394)

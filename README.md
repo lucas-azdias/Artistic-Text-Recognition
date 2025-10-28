@@ -26,7 +26,6 @@
 ## Links relevantes
 - [Competição](https://sites.google.com/view/icdar-2024-competition-wordart/)
 - [Resultados da competição](https://codalab.lisn.upsaclay.fr/competitions/17182#results)
-- [Azure DevOps](https://dev.azure.com/pucpr-estudantes/prj-bcc-8u-e07)
 
 ## Dataset
 - [Dataset compilado](https://github.com/lucas-azdias/WordArt-V1.5-Dataset)

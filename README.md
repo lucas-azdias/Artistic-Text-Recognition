@@ -40,7 +40,8 @@
 
 ## Métodos aplicados
 - [_Ensemble_](https://ieeexplore.ieee.org/document/9893798) [(PAPER)](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9893798)
-- [Alinhamento por Needleman–Wunsch](https://www.sciencedirect.com/science/article/abs/pii/S0020025513001485)
+- [Algoritmo de Needleman–Wunsch](https://www.sciencedirect.com/science/article/abs/pii/S0020025513001485)
+- [Comparação de textos pelo alinhamento com Algoritmo de Needleman-Wunsch](https://www.researchgate.net/publication/44276712_Improving_search_in_scanned_documents_Looking_for_OCR_mismatches)
 - [Dicionário para correção de erros pós-OCR](https://dl.acm.org/doi/abs/10.1145/3453476) [(PAPER)](https://dl.acm.org/doi/pdf/10.1145/3453476)
 
 ## Relacionados

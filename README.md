@@ -46,3 +46,4 @@
 
 ## Relacionados
 - [Método ViTSTR](https://github.com/kwon-evan/ViTSTR) [(PAPER)](https://arxiv.org/pdf/2105.08582)
+- [Método CornerTransformer](https://github.com/xdxie/WordArt) [(PAPER)](https://arxiv.org/pdf/2208.00438)

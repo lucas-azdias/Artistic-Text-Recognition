@@ -24,43 +24,29 @@
 ---
 
 <div align="center">
-    <a href="LICENSE">
-        <img
-            src="https://img.shields.io/github/license/lucas-azdias/Artistic-Text-Recognition"
-            alt="MIT License"
-        />
-    </a>
-    <a href="https://colab.research.google.com/github/lucas-azdias/Artistic-Text-Recognition/blob/main/artefatos/Ensemble.ipynb">
-        <img
-            src="https://colab.research.google.com/assets/colab-badge.svg"
-            alt="Open In Colab"
-        />
-    </a>
-</div>
 
-<div align="center">
-    <b>
-        <a href="#modelos">Modelos</a>
-        •
-        <a href="#dataset">Dataset</a>
-        •
-        <a href="#primeiros-passos">Primeiros passos</a>
-        •
-        <a href="#artefatos">Artefatos</a>
-        •
-        <a href="manuscritos/Artigo.pdf">Artigo</a>
-    </b>
-</div>
+[![MIT License](https://img.shields.io/github/license/lucas-azdias/Artistic-Text-Recognition)](LICENSE)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lucas-azdias/Artistic-Text-Recognition/blob/main/artefatos/Ensemble.ipynb)
+
+**[Modelos](#modelos)**
+•
+**[Dataset](#dataset)**
+•
+**[Primeiros passos](#primeiros-passos)**
+•
+**[Artefatos](#artefatos)**
+•
+**[Artigo](manuscritos/Artigo.pdf)**
 
 <br/>
 
-<div align="center">
-    <picture>
-        <img
-            src="thumbnails/solution.png"
-            height="300px"
-        />
-    </picture>
+<picture>
+    <img
+        src="thumbnails/solution.png"
+        height="300px"
+    />
+</picture>
+
 </div>
 
 ---

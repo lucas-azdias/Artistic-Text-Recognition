@@ -137,6 +137,7 @@ Na pasta [`artefatos`](artefatos), é possível encontrar os seguintes arquivos:
 | [**`Ensemble.ipynb`**](artefatos/Ensemble.ipynb) | _Notebook_ Jupyter criado no Google Colab, o qual contém toda a execução principal do _ensemble_ e de seus modelos. |
 | [**`erros_testeB.csv`**](artefatos/erros_testeB.csv) | Arquivo CSV contendo a classificação dos erros do _ensemble_ no Teste B. |
 | [**`output.zip`**](artefatos/output.zip) | Arquivo compactado que contém as saídas geradas pelo _notebook_. Dentro dele, há os resultados dos modelos e do _ensemble_ para o Teste B e, dentro da pasta `models`, pode ser obtido as execuções dos modelos individuais sobre o Teste A. |
+| [**`modelos`**](artefatos/modelos) | Essa pasta reúne os _notebooks_ para execução, avaliação e _fine-tuning_ dos modelos avaliados quando aplicável. Inclui os arquivos [`CornerTransformer.ipynb`](artefatos/modelos/CornerTransformer.ipynb), [`MAERec.ipynb`](artefatos/modelos/MAERec.ipynb), [`PARSeq.ipynb`](artefatos/modelos/PARSeq.ipynb), [`SVTRv2.ipynb`](artefatos/modelos/SVTRv2.ipynb) e [`ViTSTR.ipynb`](artefatos/modelos/ViTSTR.ipynb). |
 
 
 ## Manuscritos

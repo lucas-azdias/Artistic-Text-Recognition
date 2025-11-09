@@ -21,8 +21,10 @@
     />
 </picture>
 
+---
+
 <div align="center">
-[Modelos](#modelos) | [Dataset](#dataset) | [Primeiros passos](#primeiros-passos) | [Artefatos](#artefatos) | [Artigo](#artigo)
+    [Modelos](#modelos) | [Dataset](#dataset) | [Primeiros passos](#primeiros-passos) | [Artefatos](#artefatos) | [Artigo](#artigo)
 </div>
 
 ---
@@ -60,6 +62,15 @@ Os experimentos, realizados no Google Colab com GPU L4, mostraram que a abordage
 
 
 ## Dataset
+
+<div align="left">
+    <picture>
+        <img
+            src="thumbnails/dataset-examples.png"
+            height="300px"
+        />
+    </picture>
+</div>
 
 O dataset **WordArt-V1.5** disponibilizado pela competição foi compilado e foi utilizado para o treinamento, validação e teste dos modelos.
 

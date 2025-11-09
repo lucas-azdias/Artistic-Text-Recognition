@@ -23,7 +23,7 @@
 
 ---
 
-## Team (Integrantes)
+## Integrantes (Team)
 
 - Lucas Azevedo Dias
 - Henrique Anderle Schulz

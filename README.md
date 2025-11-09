@@ -24,7 +24,17 @@
 ---
 
 <div align="center">
-    [Modelos](#modelos) | [Dataset](#dataset) | [Primeiros passos](#primeiros-passos) | [Artefatos](#artefatos) | [Artigo](#artigo)
+    <b>
+        <a href="#modelos">Modelos</a>
+        |
+        <a href="#dataset">Dataset</a>
+        |
+        <a href="#primeiros-passos">Primeiros passos</a>
+        |
+        <a href="#artefatos">Artefatos</a>
+        |
+        <a href="manuscritos/Artigo.pdf">Artigo</a>
+    </b>
 </div>
 
 <br/>

@@ -74,7 +74,7 @@ O artigo aborda o desafio do reconhecimento de textos artísticos (ATR), uma ár
 
 **O objetivo principal do trabalho é explorar o estado do conhecimento atual sobre ATR e desenvolver uma solução customizada competitiva** com as apresentadas na competição **ICDAR 2024**, contribuindo para o avanço das técnicas de reconhecimento de textos em contextos artísticos.
 
-Os experimentos, realizados no Google Colab com GPU L4, mostraram que a abordagem alcançou **89,90% de acurácia (WRA)** no conjunto de teste final do dataset **WordArt-V1.5**, desempenho que a colocaria entre as três melhores soluções da competição **ICDAR 2024**.
+Os experimentos, realizados no Google Colab com GPU L4, mostraram que a abordagem alcançou **89,90% de acurácia (WRA)** no conjunto de teste final do _dataset_ **WordArt-V1.5**, desempenho que a colocaria entre as três melhores soluções da competição **ICDAR 2024**.
 
 
 ## ICDAR 2024
@@ -131,12 +131,23 @@ Contudo, foram descartados para a etapa de fusão final devido a baixa complemen
 
 ## Artefatos
 
-...
+Na pasta [`artefatos`](artefatos), é possível encontrar os seguintes arquivos:
+
+| Arquivo | Descrição |
+|:--|:--|
+| [**`Ensemble.ipynb`**](artefatos/Ensemble.ipynb) | _Notebook_ Jupyter criado no Google Colab, o qual contém toda a execução principal do _ensemble_ e de seus modelos. |
+| [**`erros_testeB.csv`**](artefatos/erros_testeB.csv) | Arquivo CSV contendo a classificação dos erros do _ensemble_ no Teste B. |
+| [**`output.zip`**](artefatos/output.zip) | Arquivo compactado que contém as saídas geradas pelo _notebook_. Dentro dele, há os resultados dos modelos e do _ensemble_ para o Teste B e, dentro da pasta `models`, pode ser obtido as execuções dos modelos individuais sobre o Teste A. |
 
 
 ## Manuscritos
 
-...
+Na pasta [`manuscritos`](manuscritos), é possível encontrar os seguintes textos:
+
+| Arquivo | Descrição |
+|:--|:--|
+| [**`Artigo.pdf`**](manuscritos/Artigo.pdf) | Artigo final redigido contendo todo o desenvolvimento do projeto e seus resultados. |
+| [**`Planejamento.pdf`**](manuscritos/Planejamento.pdf) | Planejamento inicial do projeto. |
 
 
 ## Primeiros passos

@@ -24,20 +24,16 @@
 ---
 
 <div align="center">
-    <a
-        href="LICENSE"
-        target="_parent"
-    >
+    <a href="LICENSE">
         <img
-            src="https://img.shields.io/github/license/lucas-azdias/Artistic-Text-Recognition" alt="MIT License"
+            src="https://img.shields.io/github/license/lucas-azdias/Artistic-Text-Recognition"
+            alt="MIT License"
         />
     </a>
-    <a
-        href="https://colab.research.google.com/github/lucas-azdias/Artistic-Text-Recognition/blob/main/artefatos/Ensemble.ipynb"
-        target="_parent"
-    >
+    <a href="https://colab.research.google.com/github/lucas-azdias/Artistic-Text-Recognition/blob/main/artefatos/Ensemble.ipynb">
         <img
-            src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"
+            src="https://colab.research.google.com/assets/colab-badge.svg"
+            alt="Open In Colab"
         />
     </a>
 </div>

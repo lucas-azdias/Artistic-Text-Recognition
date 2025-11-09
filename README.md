@@ -23,6 +23,20 @@
 
 ---
 
+## Team (Integrantes)
+
+- Lucas Azevedo Dias
+- Henrique Anderle Schulz
+- Rafaela de Miranda
+- Guilherme Henrique Eduardo de Lara Peres
+- Pedro Lucas Ghezzi Bittencourt
+
+
+## Overview
+
+...
+
+
 ## Visão Geral
 
 - [Competição](https://sites.google.com/view/icdar-2024-competition-wordart/)

@@ -148,6 +148,7 @@ Na pasta [`manuscritos`](manuscritos), é possível encontrar os seguintes texto
 |:--|:--|
 | [**`Artigo.pdf`**](manuscritos/Artigo.pdf) | Artigo final redigido contendo todo o desenvolvimento do projeto e seus resultados. |
 | [**`Planejamento.pdf`**](manuscritos/Planejamento.pdf) | Planejamento inicial do projeto. |
+| [**`Poster.pdf`**](manuscritos/Poster.pdf) | Poster para apresentação e exposição do projeto. |
 
 
 ## Primeiros passos

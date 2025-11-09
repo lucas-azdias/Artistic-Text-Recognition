@@ -27,6 +27,17 @@
     [Modelos](#modelos) | [Dataset](#dataset) | [Primeiros passos](#primeiros-passos) | [Artefatos](#artefatos) | [Artigo](#artigo)
 </div>
 
+<br/>
+
+<div align="center">
+    <picture>
+        <img
+            src="thumbnails/solution.png"
+            height="300px"
+        />
+    </picture>
+</div>
+
 ---
 
 ## Integrantes (Team)

@@ -34,11 +34,23 @@
 
 ## Overview
 
-...
+The article addresses the challenge of Artistic Text Recognition (ATR), a complex field within computer vision that aims to interpret highly stylized text — characterized by distortions, variations in color, shape, and typography — commonly found in posters, covers, and other visual designs.
+
+**The main goal of this work is to explore the current state of the art in ATR and to develop a customized, competitive solution** comparable to those presented at the **ICDAR 2024** competition, contributing to the advancement of text recognition techniques in artistic contexts.
+
+Experiments conducted on Google Colab with an L4 GPU demonstrated that the proposed approach achieved **89.90% accuracy (WRA)** on the final test set of the **WordArt-V1.5** dataset, a performance that would place it among the top three solutions in the **ICDAR 2024** competition.
 
 
 ## Visão Geral
 
+O artigo aborda o desafio do reconhecimento de textos artísticos (ATR), uma área complexa da visão computacional que busca interpretar textos altamente estilizados — com distorções, variações de cor, forma e tipografia — frequentemente encontrados em pôsteres, capas e criações visuais.
+
+**O objetivo principal do trabalho é explorar o estado do conhecimento atual sobre ATR e desenvolver uma solução customizada competitiva** com as apresentadas na competição **ICDAR 2024**, contribuindo para o avanço das técnicas de reconhecimento de textos em contextos artísticos.
+
+Os experimentos, realizados no Google Colab com GPU L4, mostraram que a abordagem alcançou **89,90% de acurácia (WRA)** no conjunto de teste final do dataset **WordArt-V1.5**, desempenho que a colocaria entre as três melhores soluções da competição **ICDAR 2024**.
+
+
+## ICDAR 2024
 - [Competição](https://sites.google.com/view/icdar-2024-competition-wordart/)
 - [Resultados da competição](https://codalab.lisn.upsaclay.fr/competitions/17182#results)
 

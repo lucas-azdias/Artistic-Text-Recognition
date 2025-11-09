@@ -152,4 +152,5 @@ Na pasta [`manuscritos`](manuscritos), é possível encontrar os seguintes texto
 
 ## Primeiros passos
 
-...
+1. Abra o _notebook_ [`Ensemble.ipynb`](Ensemble.ipynb) e execute todas as células.
+2. Na seção de execução, é possível encontrar (i) a execução dos modelos pré-treinados, (ii) a execução do _ensemble_, (iii) a análise dos erros do _ensemble_ (iv) e o teste de ablação realizado para os métodos de alinhamento e de dicionário.

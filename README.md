@@ -21,6 +21,10 @@
     />
 </picture>
 
+<div align="center">
+[Modelos](#modelos) | [Dataset](#dataset) | [Primeiros passos](#primeiros-passos) | [Artefatos](#artefatos) | [Artigo](#artigo)
+</div>
+
 ---
 
 ## Integrantes (Team)
@@ -103,6 +107,6 @@ Contudo, foram descartados para a etapa de fusão final devido a baixa complemen
 ...
 
 
-## Execução
+## Primeiros passos
 
 ...

@@ -38,8 +38,6 @@
 •
 **[Artigo](manuscritos/Artigo.pdf)**
 
-<br/>
-
 <picture>
     <img
         src="thumbnails/solution.png"

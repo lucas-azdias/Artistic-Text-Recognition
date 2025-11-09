@@ -23,29 +23,60 @@
 
 ---
 
-## Links relevantes
+## Visão Geral
+
 - [Competição](https://sites.google.com/view/icdar-2024-competition-wordart/)
 - [Resultados da competição](https://codalab.lisn.upsaclay.fr/competitions/17182#results)
 
+
 ## Dataset
-- [Dataset compilado](https://github.com/lucas-azdias/WordArt-V1.5-Dataset)
-- [Dataset treino](https://drive.google.com/file/d/1Lq6xKNbD7Kvs-i1myJPmwBLLG5YnoM9N/view)
-- [Dataset teste A (validação)](https://drive.google.com/file/d/15tkLbdXYzIILVWIg4kqjPMJ51p-vD2Ej/view)
-- [Dataset teste B (teste)](https://drive.google.com/file/d/1Q7kAqFITGntZAn-HuCh8vQpHTpDkPSAH/view)
+
+O dataset **WordArt-V1.5** disponibilizado pela competição foi compilado e foi utilizado para o treinamento, validação e teste dos modelos.
+
+| Dataset | Descrição | Link |
+|:--|:--|:--|
+| **Compilado** | Versão consolidada do WordArt-V1.5, incluindo todas imagens e anotações. | [GitHub](https://github.com/lucas-azdias/WordArt-V1.5-Dataset) |
+| **Treino** | Conjunto utilizado para treinamento dos modelos. | [Download](https://drive.google.com/file/d/1Lq6xKNbD7Kvs-i1myJPmwBLLG5YnoM9N/view) |
+| **Teste A (Validação)** | Subconjunto destinado à validação e ajuste de hiperparâmetros. | [Download](https://drive.google.com/file/d/15tkLbdXYzIILVWIg4kqjPMJ51p-vD2Ej/view) |
+| **Teste B (Competição)** | Conjunto final de teste, usado para avaliação oficial na competição. | [Download](https://drive.google.com/file/d/1Q7kAqFITGntZAn-HuCh8vQpHTpDkPSAH/view) |
+
 
 ## Modelos
-- [Modelo PARSeq](https://github.com/baudm/parseq) [(PAPER)](https://arxiv.org/pdf/2207.06966)
-- [Modelo SVTRv2](https://github.com/Topdu/OpenOCR/blob/main/configs/rec/svtrv2/readme.md) [(PAPER)](https://arxiv.org/pdf/2411.15858)
-- [Modelo MAERec](https://github.com/Mountchicken/Union14M/tree/main?tab=readme-ov-file#5-maerec) [(PAPER)](https://arxiv.org/pdf/2307.08723)
 
-Os pesos com ajuste fino estão disponíveis [aqui](https://mega.nz/folder/JZIyma4I#VbFauSW6ilS7n0ON9A3PQA)
+Os modelos abaixo foram os selecionados para a etapa de fusão por apresentarem arquiteturas representativas do estado da arte e ótimos resultados de desempenho e de generalização sobre o dataset **WordArt-V1.5**.
 
-<!-- ## Métodos aplicados -->
-<!-- - [_Ensemble_](https://ieeexplore.ieee.org/document/9893798) [(PAPER)](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9893798) -->
-<!-- - [Algoritmo de Needleman–Wunsch](https://www.sciencedirect.com/science/article/abs/pii/S0020025513001485) -->
-<!-- - [Comparação de textos pelo alinhamento com Algoritmo de Needleman-Wunsch](https://www.researchgate.net/publication/44276712_Improving_search_in_scanned_documents_Looking_for_OCR_mismatches) -->
-<!-- - [Dicionário para correção de erros pós-OCR](https://dl.acm.org/doi/abs/10.1145/3453476) [(PAPER)](https://dl.acm.org/doi/pdf/10.1145/3453476) -->
+Em especial, foram escolhidos por cobrirem diferentes paradigmas de reconhecimento de texto --- abordagens baseadas em transformador de visão (ViT) com _decoder_ visual-linguístico (**PARSeq**), em classificação temporal conexionista (CTC) com uso de módulos (**SVTRv2**) e pré-treinamento autossupervisionado com _autoencoder_ com máscaras (**MAERec**). Essa diversidade favorece a complementaridade de predições na etapa de fusão.
 
-## Relacionados
-- [Método ViTSTR](https://github.com/kwon-evan/ViTSTR) [(PAPER)](https://arxiv.org/pdf/2105.08582)
-- [Método CornerTransformer](https://github.com/xdxie/WordArt) [(PAPER)](https://arxiv.org/pdf/2208.00438)
+| Modelo | Código-Fonte | Publicação |
+|:--|:--|:--|
+| **PARSeq** | [GitHub](https://github.com/baudm/parseq) | [ArXiv](https://arxiv.org/pdf/2207.06966) |
+| **SVTRv2** | [GitHub](https://github.com/Topdu/OpenOCR/blob/main/configs/rec/svtrv2/readme.md) | [ArXiv](https://arxiv.org/pdf/2411.15858) |
+| **MAERec** | [GitHub](https://github.com/Mountchicken/Union14M/tree/main?tab=readme-ov-file#5-maerec) | [ArXiv](https://arxiv.org/pdf/2307.08723) |
+
+Os pesos com ajuste fino dos modelos estão disponíveis [aqui](https://mega.nz/folder/JZIyma4I#VbFauSW6ilS7n0ON9A3PQA).
+
+
+## Outros modelos
+
+Outros modelos de reconhecimento de texto foram avaliados durante os experimentos preliminares.
+Contudo, foram descartados para a etapa de fusão final devido a baixa complementaridade de predições, assim não contribuindo significativamente para o ganho de desempenho no _ensemble_.
+
+| Método | Código-Fonte | Publicação |
+|:--|:--|:--|
+| **ViTSTR** | [GitHub](https://github.com/kwon-evan/ViTSTR) | [ArXiv](https://arxiv.org/pdf/2105.08582) |
+| **CornerTransformer** | [GitHub](https://github.com/xdxie/WordArt) | [ArXiv](https://arxiv.org/pdf/2208.00438) |
+
+
+## Artefatos
+
+...
+
+
+## Manuscritos
+
+...
+
+
+## Execução
+
+...

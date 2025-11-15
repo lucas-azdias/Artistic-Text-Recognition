@@ -41,10 +41,12 @@
 **[Artigo](manuscritos/Artigo.pdf)**
 
 <picture>
-    <img
-        src="thumbnails/solution-diagram.png"
-        height="400px"
-    />
+    <kbd>
+        <img
+            src="thumbnails/solution-diagram.png"
+            height="400px"
+        />
+    </kbd>
 </picture>
 
 </div>
@@ -85,14 +87,18 @@ Os experimentos, realizados no Google Colab com GPU L4, mostraram que a abordage
 
 ## Dataset
 
-<div align="left">
+<div align="center">
     <picture>
-        <img
-            src="thumbnails/dataset-examples.png"
-            height="300px"
-        />
+        <kbd>
+            <img
+                src="thumbnails/dataset-examples.png"
+                height="400px"
+            />
+        </kbd>
     </picture>
 </div>
+
+<br />
 
 O dataset **WordArt-V1.5** disponibilizado pela competição foi compilado e foi utilizado para o treinamento, validação e teste dos modelos.
 

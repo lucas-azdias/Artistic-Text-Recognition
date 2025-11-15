@@ -82,10 +82,18 @@ Os experimentos, realizados no Google Colab com GPU L4, mostraram que a abordage
 
 ## ICDAR 2024
 
+Com base nos resultados oficiais da competição [ICDAR 2024](https://sites.google.com/view/icdar-2024-competition-wordart/) que podem ser consultados [aqui](https://codalab.lisn.upsaclay.fr/competitions/17182#results), é possível comparar diretamente o desempenho da solução com os participantes finais.
 
+A tabela oficial apresenta os seguintes resultados:
 
-- [Competição](https://sites.google.com/view/icdar-2024-competition-wordart/)
-- [Resultados da competição](https://codalab.lisn.upsaclay.fr/competitions/17182#results)
+| # | Equipe | WRA (%) |
+|:--:|:--|:--:|
+| 1 | Ocr For WordArt | 91,07 |
+| 2 | ViettelAI-OCR | 90,77 |
+| 3 | Let Me See | 89,77 |
+| 4 | iPad_OCR | 89,27 |
+
+Com o **WRA de 89,90%**, o **método proposto ocuparia o 3º lugar na competição**, caso participasse dela.
 
 
 ## Dataset
@@ -106,7 +114,7 @@ Os experimentos, realizados no Google Colab com GPU L4, mostraram que a abordage
 O dataset **WordArt-V1.5** disponibilizado pela competição foi compilado e foi utilizado para o treinamento, validação e teste dos modelos.
 
 | Dataset | Descrição | Link |
-|:--|:--|:--|
+|:--:|:--|:--:|
 | **Compilado** | Versão consolidada do WordArt-V1.5, incluindo todas imagens e anotações. | [GitHub](https://github.com/lucas-azdias/WordArt-V1.5-Dataset) |
 | **Treino** | Conjunto utilizado para treinamento dos modelos. | [Download](https://drive.google.com/file/d/1Lq6xKNbD7Kvs-i1myJPmwBLLG5YnoM9N/view) |
 | **Teste A (Validação)** | Subconjunto destinado à validação e ajuste de hiperparâmetros. | [Download](https://drive.google.com/file/d/15tkLbdXYzIILVWIg4kqjPMJ51p-vD2Ej/view) |
@@ -120,7 +128,7 @@ Os modelos abaixo foram os selecionados para a etapa de fusão por apresentarem 
 Em especial, foram escolhidos por cobrirem diferentes paradigmas de reconhecimento de texto --- abordagens baseadas em transformador de visão (ViT) com _decoder_ visual-linguístico (**PARSeq**), em classificação temporal conexionista (CTC) com uso de módulos (**SVTRv2**) e pré-treinamento autossupervisionado com _autoencoder_ com máscaras (**MAERec**). Essa diversidade favorece a complementaridade de predições na etapa de fusão.
 
 | Modelo | Código-Fonte | Publicação |
-|:--|:--|:--|
+|:--:|:--:|:--:|
 | **PARSeq** | [GitHub](https://github.com/baudm/parseq) | [ArXiv](https://arxiv.org/pdf/2207.06966) |
 | **SVTRv2** | [GitHub](https://github.com/Topdu/OpenOCR/blob/main/configs/rec/svtrv2/readme.md) | [ArXiv](https://arxiv.org/pdf/2411.15858) |
 | **MAERec** | [GitHub](https://github.com/Mountchicken/Union14M/tree/main?tab=readme-ov-file#5-maerec) | [ArXiv](https://arxiv.org/pdf/2307.08723) |
@@ -134,7 +142,7 @@ Outros modelos de reconhecimento de texto foram avaliados durante os experimento
 Contudo, foram descartados para a etapa de fusão final devido a baixa complementaridade de predições, assim não contribuindo significativamente para o ganho de desempenho no _ensemble_.
 
 | Método | Código-Fonte | Publicação |
-|:--|:--|:--|
+|:--:|:--:|:--:|
 | **ViTSTR** | [GitHub](https://github.com/kwon-evan/ViTSTR) | [ArXiv](https://arxiv.org/pdf/2105.08582) |
 | **CornerTransformer** | [GitHub](https://github.com/xdxie/WordArt) | [ArXiv](https://arxiv.org/pdf/2208.00438) |
 
@@ -144,7 +152,7 @@ Contudo, foram descartados para a etapa de fusão final devido a baixa complemen
 Na pasta [`artefatos`](artefatos), é possível encontrar os seguintes arquivos:
 
 | Arquivo | Descrição |
-|:--|:--|
+|:--:|:--|
 | [**`Ensemble.ipynb`**](artefatos/Ensemble.ipynb) | _Notebook_ Jupyter criado no Google Colab, o qual contém toda a execução principal do _ensemble_ e de seus modelos. |
 | [**`erros_testeB.csv`**](artefatos/erros_testeB.csv) | Arquivo CSV contendo a classificação dos erros do _ensemble_ no Teste B. |
 | [**`output.zip`**](artefatos/output.zip) | Arquivo compactado que contém as saídas geradas pelo _notebook_. Dentro dele, há os resultados dos modelos e do _ensemble_ para o Teste B e, dentro da pasta `models`, pode ser obtido as execuções dos modelos individuais sobre o Teste A. |
@@ -156,7 +164,7 @@ Na pasta [`artefatos`](artefatos), é possível encontrar os seguintes arquivos:
 Na pasta [`manuscritos`](manuscritos), é possível encontrar os seguintes textos:
 
 | Arquivo | Descrição |
-|:--|:--|
+|:--:|:--|
 | [**`Artigo.pdf`**](manuscritos/Artigo.pdf) | Artigo final redigido contendo todo o desenvolvimento do projeto e seus resultados. |
 | [**`Planejamento.pdf`**](manuscritos/Planejamento.pdf) | Planejamento inicial do projeto. |
 | [**`Poster.pdf`**](manuscritos/Poster.pdf) | Poster para apresentação e exposição do projeto. |

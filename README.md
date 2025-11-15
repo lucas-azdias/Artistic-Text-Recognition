@@ -25,7 +25,7 @@
 
 <div align="center">
 
-[![MIT License](https://img.shields.io/github/license/lucas-azdias/Artistic-Text-Recognition?cacheSeconds=60)](LICENSE)
+[![MIT License](https://img.shields.io/github/license/lucas-azdias/Artistic-Text-Recognition?cacheSeconds=60&v=1)](LICENSE)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lucas-azdias/Artistic-Text-Recognition/blob/main/artefatos/Ensemble.ipynb)
 
 **[Modelos](#modelos)**

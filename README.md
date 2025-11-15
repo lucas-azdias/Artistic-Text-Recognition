@@ -111,7 +111,7 @@ Com o **WRA de 89,90%**, o **método proposto ocuparia o 3º lugar na competiç�
 
 <br />
 
-O dataset **WordArt-V1.5** disponibilizado pela competição foi compilado e foi utilizado para o treinamento, validação e teste dos modelos.
+O _dataset_ **WordArt-V1.5** disponibilizado pela competição foi compilado e foi utilizado para o treinamento, validação e teste dos modelos.
 
 | Dataset | Descrição | Link |
 |:--:|:--|:--:|
@@ -123,7 +123,7 @@ O dataset **WordArt-V1.5** disponibilizado pela competição foi compilado e foi
 
 ## Modelos
 
-Os modelos abaixo foram os selecionados para a etapa de fusão por apresentarem arquiteturas representativas do estado da arte e ótimos resultados de desempenho e de generalização sobre o dataset **WordArt-V1.5**.
+Os modelos abaixo foram os selecionados para a etapa de fusão por apresentarem arquiteturas representativas do estado da arte e ótimos resultados de desempenho e de generalização sobre o _dataset_ **WordArt-V1.5**.
 
 Em especial, foram escolhidos por cobrirem diferentes paradigmas de reconhecimento de texto --- abordagens baseadas em transformador de visão (ViT) com _decoder_ visual-linguístico (**PARSeq**), em classificação temporal conexionista (CTC) com uso de módulos (**SVTRv2**) e pré-treinamento autossupervisionado com _autoencoder_ com máscaras (**MAERec**). Essa diversidade favorece a complementaridade de predições na etapa de fusão.
 

@@ -37,6 +37,8 @@
 **[Artefatos](#artefatos)**
 •
 **[Artigo](manuscritos/Artigo.pdf)**
+•
+**[Poster](manuscritos/Poster.pdf)**
 
 <picture>
     <img

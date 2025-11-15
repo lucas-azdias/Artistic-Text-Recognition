@@ -81,6 +81,9 @@ Os experimentos, realizados no Google Colab com GPU L4, mostraram que a abordage
 
 
 ## ICDAR 2024
+
+
+
 - [Competição](https://sites.google.com/view/icdar-2024-competition-wordart/)
 - [Resultados da competição](https://codalab.lisn.upsaclay.fr/competitions/17182#results)
 

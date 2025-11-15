@@ -43,7 +43,7 @@
 <picture>
     <img
         src="thumbnails/solution-diagram.png"
-        height="300px"
+        height="400px"
     />
 </picture>
 

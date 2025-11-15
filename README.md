@@ -36,13 +36,13 @@
 •
 **[Artefatos](#artefatos)**
 •
-**[Artigo](manuscritos/Artigo.pdf)**
-•
 **[Poster](manuscritos/Poster.pdf)**
+•
+**[Artigo](manuscritos/Artigo.pdf)**
 
 <picture>
     <img
-        src="thumbnails/solution.png"
+        src="thumbnails/solution-diagram.png"
         height="300px"
     />
 </picture>

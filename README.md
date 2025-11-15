@@ -87,7 +87,7 @@ Os experimentos, realizados no Google Colab com GPU L4, mostraram que a abordage
 
 ## Dataset
 
-<div align="center">
+<div align="left">
     <picture>
         <kbd>
             <img

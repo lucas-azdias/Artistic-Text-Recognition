@@ -4,7 +4,7 @@
 
 **ICDAR 2024 Competition on Artistic Text Recognition**
 
-Mentorado pelo prof. Rayson Laroca.
+Mentorado pelo prof. [Rayson Laroca](https://github.com/raysonlaroca).
 
 <picture>
     <source

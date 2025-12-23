@@ -46,7 +46,7 @@ Mentorado pelo prof. Rayson Laroca.
     <kbd>
         <img
             src="thumbnails/solution-diagram.png"
-            height="400px"
+            width="575px"
         />
     </kbd>
 </picture>
@@ -105,7 +105,7 @@ Com o **WRA de 89,90%**, o **método proposto ocuparia o 3º lugar na competiç�
         <kbd>
             <img
                 src="thumbnails/dataset-examples.png"
-                height="400px"
+                width="425px"
             />
         </kbd>
     </picture>

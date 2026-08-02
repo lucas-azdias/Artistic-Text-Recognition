@@ -28,7 +28,7 @@ Supervised by Prof. [Rayson Laroca](https://github.com/raysonlaroca).
 <div align="center">
 
 [![MIT License](https://img.shields.io/github/license/lucas-azdias/Artistic-Text-Recognition?cacheSeconds=60&v=1)](LICENSE)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lucas-azdias/Artistic-Text-Recognition/blob/main/artefatos/Ensemble.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lucas-azdias/Artistic-Text-Recognition/blob/main/artifacts/Ensemble.ipynb)
 
 **[Models](#models)**
 •

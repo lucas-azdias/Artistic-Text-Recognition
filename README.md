@@ -1,10 +1,10 @@
-# Avaliando Abordagens do Estado da Arte para Reconhecimento de Textos Artísticos
+# Confidence-Aware Ensemble and Long-Word Refinement for Artistic Text Recognition
 
 *Evaluating State-of-the-Art Approaches to Artistic Text Recognition*
 
 **ICDAR 2024 Competition on Artistic Text Recognition**
 
-Mentorado pelo prof. [Rayson Laroca](https://github.com/raysonlaroca).
+Supervised by Prof. [Rayson Laroca](https://github.com/raysonlaroca).
 
 <picture>
     <source
@@ -30,17 +30,15 @@ Mentorado pelo prof. [Rayson Laroca](https://github.com/raysonlaroca).
 [![MIT License](https://img.shields.io/github/license/lucas-azdias/Artistic-Text-Recognition?cacheSeconds=60&v=1)](LICENSE)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lucas-azdias/Artistic-Text-Recognition/blob/main/artefatos/Ensemble.ipynb)
 
-**[Modelos](#modelos)**
+**[Models](#models)**
 •
 **[Dataset](#dataset)**
 •
-**[Primeiros passos](#primeiros-passos)**
+**[Getting started](#getting-started)**
 •
-**[Artefatos](#artefatos)**
+**[Artifacts](#artifacts)**
 •
-**[Pôster](manuscritos/Pôster.pdf)**
-•
-**[Artigo](manuscritos/Artigo.pdf)**
+**[Paper](manuscripts/Paper.pdf)**
 
 <picture>
     <kbd>
@@ -55,7 +53,7 @@ Mentorado pelo prof. [Rayson Laroca](https://github.com/raysonlaroca).
 
 ---
 
-## Integrantes (Team)
+## Team
 
 - Lucas Azevedo Dias
 - Henrique Anderle Schulz
@@ -73,29 +71,20 @@ The article addresses the challenge of Artistic Text Recognition (ATR), a comple
 Experiments conducted on Google Colab with an L4 GPU demonstrated that the proposed approach achieved **89.90% accuracy (WRA)** on the final test set of the **WordArt-V1.5** dataset, a performance that would place it among the top three solutions in the **ICDAR 2024** competition.
 
 
-## Visão Geral
-
-O artigo aborda o desafio do reconhecimento de textos artísticos (ATR), uma área complexa da visão computacional que busca interpretar textos altamente estilizados — com distorções, variações de cor, forma e tipografia — frequentemente encontrados em pôsteres, capas e criações visuais.
-
-**O objetivo principal do trabalho é explorar o estado do conhecimento atual sobre ATR e desenvolver uma solução customizada competitiva** com as apresentadas na competição **ICDAR 2024**, contribuindo para o avanço das técnicas de reconhecimento de textos em contextos artísticos.
-
-Os experimentos, realizados no Google Colab com GPU L4, mostraram que a abordagem alcançou **89,90% de acurácia (WRA)** no conjunto de teste final do _dataset_ **WordArt-V1.5**, desempenho que a colocaria entre as três melhores soluções da competição **ICDAR 2024**.
-
-
 ## ICDAR 2024
 
-Com base nos resultados oficiais da competição [ICDAR 2024](https://sites.google.com/view/icdar-2024-competition-wordart/) que podem ser consultados [aqui](https://codalab.lisn.upsaclay.fr/competitions/17182#results), é possível comparar diretamente o desempenho da solução com os participantes finais.
+Based on the official results of the [ICDAR 2024](https://sites.google.com/view/icdar-2024-competition-wordart/) available [here](https://codalab.lisn.upsaclay.fr/competitions/17182#results), it is possible to directly compare the performance of the proposed solution with that of the final participants.
 
-A tabela oficial apresenta os seguintes resultados:
+The official leaderboard reports the following results:
 
-| # | Equipe | WRA (%) |
+| # | Team | WRA (%) |
 |:--:|:--|:--:|
 | 1 | Ocr For WordArt | 91,07 |
 | 2 | ViettelAI-OCR | 90,77 |
 | 3 | Let Me See | 89,77 |
 | 4 | iPad_OCR | 89,27 |
 
-Com o **WRA de 89,90%**, o **método proposto ocuparia o 3º lugar na competição**, caso participasse dela.
+With a **WRA of 89.90%**, the **proposed method would have ranked 3rd in the competition** had it participated.
 
 
 ## Dataset
@@ -113,66 +102,63 @@ Com o **WRA de 89,90%**, o **método proposto ocuparia o 3º lugar na competiç�
 
 <br />
 
-O _dataset_ **WordArt-V1.5** disponibilizado pela competição foi compilado e foi utilizado para o treinamento, validação e teste dos modelos.
+The **WordArt-V1.5** dataset provided by the competition was compiled and used for training, validating, and testing the models.
 
-| Dataset | Descrição | Link |
+| Dataset | Description | Link |
 |:--:|:--|:--:|
-| **Compilado** | Versão consolidada do WordArt-V1.5, incluindo todas imagens e anotações. | [GitHub](https://github.com/lucas-azdias/WordArt-V1.5-Dataset) |
-| **Treino** | Conjunto utilizado para treinamento dos modelos. | [Download](https://drive.google.com/file/d/1Lq6xKNbD7Kvs-i1myJPmwBLLG5YnoM9N/view) |
-| **Teste A (Validação)** | Subconjunto destinado à validação e ajuste de hiperparâmetros. | [Download](https://drive.google.com/file/d/15tkLbdXYzIILVWIg4kqjPMJ51p-vD2Ej/view) |
-| **Teste B (Competição)** | Conjunto final de teste, usado para avaliação oficial na competição. | [Download](https://drive.google.com/file/d/1Q7kAqFITGntZAn-HuCh8vQpHTpDkPSAH/view) |
+| **Compiled** | Consolidated version of WordArt-V1.5, including all images and annotations. | [GitHub](https://github.com/lucas-azdias/WordArt-V1.5-Dataset) |
+| **Train** | Set used for training the models. | [Download](https://drive.google.com/file/d/1Lq6xKNbD7Kvs-i1myJPmwBLLG5YnoM9N/view) |
+| **Test A (Validation)** | Subset intended for validation and hyperparameter tuning. | [Download](https://drive.google.com/file/d/15tkLbdXYzIILVWIg4kqjPMJ51p-vD2Ej/view) |
+| **Test B (Competition)** | Final test set, used for official evaluation in the competition. | [Download](https://drive.google.com/file/d/1Q7kAqFITGntZAn-HuCh8vQpHTpDkPSAH/view) |
 
 
-## Modelos
+## Models
 
-Os modelos abaixo foram os selecionados para a etapa de fusão por apresentarem arquiteturas representativas do estado da arte e ótimos resultados de desempenho e de generalização sobre o _dataset_ **WordArt-V1.5**.
+The models below were selected for the fusion stage because they feature state-of-the-art architectures and demonstrate excellent performance and generalization results on the **WordArt-V1.5** dataset.
 
-Em especial, foram escolhidos por cobrirem diferentes paradigmas de reconhecimento de texto — abordagens baseadas em transformador de visão (ViT) com _decoder_ visual-linguístico (**PARSeq**), em classificação temporal conexionista (CTC) com uso de módulos (**SVTRv2**) e pré-treinamento autossupervisionado com _autoencoder_ com máscaras (**MAERec**). Essa diversidade favorece a complementaridade de predições na etapa de fusão.
+In particular, they were selected because they cover different text recognition paradigms — Vision Transformer (ViT) based approaches with a vision-language decoder (**PARSeq**), Connectionist Temporal Classification (CTC) utilizing modules (**SVTRv2**), and self-supervised pre-training with a masked autoencoder (**MAERec**). This diversity fosters the complementarity of predictions during the fusion stage.
 
-| Modelo | Código-Fonte | Publicação |
+| Model | Source code | Published paper |
 |:--:|:--:|:--:|
 | **PARSeq** | [GitHub](https://github.com/baudm/parseq) | [ArXiv](https://arxiv.org/pdf/2207.06966) |
 | **SVTRv2** | [GitHub](https://github.com/Topdu/OpenOCR/blob/main/configs/rec/svtrv2/readme.md) | [ArXiv](https://arxiv.org/pdf/2411.15858) |
 | **MAERec** | [GitHub](https://github.com/Mountchicken/Union14M/tree/main?tab=readme-ov-file#5-maerec) | [ArXiv](https://arxiv.org/pdf/2307.08723) |
 
-Os pesos com ajuste fino dos modelos estão disponíveis [aqui](https://mega.nz/folder/JZIyma4I#VbFauSW6ilS7n0ON9A3PQA).
+The fine-tuned model weights are available [here](https://mega.nz/folder/JZIyma4I#VbFauSW6ilS7n0ON9A3PQA).
 
 
-## Outros modelos
+## Other models
 
-Outros modelos de reconhecimento de texto foram avaliados durante os experimentos preliminares.
-Contudo, foram descartados para a etapa de fusão final devido a baixa complementaridade de predições, assim não contribuindo significativamente para o ganho de desempenho no _ensemble_.
+Other text recognition models were evaluated during the preliminary experiments. However, they were discarded for the final fusion stage due to low prediction complementarity, thereby failing to contribute significantly to the performance gain of the ensemble.
 
-| Método | Código-Fonte | Publicação |
+| Model | Source code | Published paper |
 |:--:|:--:|:--:|
 | **ViTSTR** | [GitHub](https://github.com/kwon-evan/ViTSTR) | [ArXiv](https://arxiv.org/pdf/2105.08582) |
 | **CornerTransformer** | [GitHub](https://github.com/xdxie/WordArt) | [ArXiv](https://arxiv.org/pdf/2208.00438) |
 
 
-## Artefatos
+## Artifacts
 
-Na pasta [`artefatos`](artefatos), é possível encontrar os seguintes arquivos:
+In the [`artifacts`](artifacts) folder, it is possible to find the following files:
 
-| Arquivo | Descrição |
+| File | Description |
 |:--:|:--|
-| [**`Ensemble.ipynb`**](artefatos/Ensemble.ipynb) | _Notebook_ Jupyter criado no Google Colab, o qual contém toda a execução principal do _ensemble_ e de seus modelos. |
-| [**`erros_testeB.csv`**](artefatos/erros_testeB.csv) | Arquivo CSV contendo a classificação dos erros do _ensemble_ no Teste B. |
-| [**`output.zip`**](artefatos/output.zip) | Arquivo compactado que contém as saídas geradas pelo _notebook_. Dentro dele, há os resultados dos modelos e do _ensemble_ para o Teste B e, dentro da pasta `models`, pode ser obtido as execuções dos modelos individuais sobre o Teste A. |
-| [**`modelos`**](artefatos/modelos) | Essa pasta reúne os _notebooks_ para execução, avaliação e _fine-tuning_ dos modelos avaliados quando aplicável. Inclui os arquivos [`CornerTransformer.ipynb`](artefatos/modelos/CornerTransformer.ipynb), [`MAERec.ipynb`](artefatos/modelos/MAERec.ipynb), [`PARSeq.ipynb`](artefatos/modelos/PARSeq.ipynb), [`SVTRv2.ipynb`](artefatos/modelos/SVTRv2.ipynb) e [`ViTSTR.ipynb`](artefatos/modelos/ViTSTR.ipynb). |
+| [**`Ensemble.ipynb`**](artifacts/Ensemble.ipynb) | Jupyter notebook created in Google Colab, containing the main execution of the ensemble and its models. |
+| [**`errors_testB.csv`**](artifacts/erros_testeB.csv) | CSV file containing the classification of ensemble errors on Test B. |
+| [**`output.zip`**](artifacts/output.zip) | Compressed archive containing the outputs generated by the notebook. It includes the results from the models and the ensemble for Test B, and the executions of the individual models on Test A can be found within the `models` folder. |
+| [**`models`**](artifacts/models) | This folder contains the notebooks for the execution, evaluation, and fine-tuning of the evaluated models, where applicable. It includes the files: [`CornerTransformer.ipynb`](artifacts/models/CornerTransformer.ipynb), [`MAERec.ipynb`](artifacts/models/MAERec.ipynb), [`PARSeq.ipynb`](artifacts/models/PARSeq.ipynb), [`SVTRv2.ipynb`](artifacts/models/SVTRv2.ipynb) and [`ViTSTR.ipynb`](artifacts/models/ViTSTR.ipynb). |
 
 
-## Manuscritos
+## Manuscripts
 
-Na pasta [`manuscritos`](manuscritos), é possível encontrar os seguintes textos:
+In the [`manuscripts`](manuscripts) folder, it is possible to find the following texts:
 
-| Arquivo | Descrição |
+| File | Description |
 |:--:|:--|
-| [**`Artigo.pdf`**](manuscritos/Artigo.pdf) | Artigo final redigido contendo todo o desenvolvimento do projeto e seus resultados. |
-| [**`Planejamento.pdf`**](manuscritos/Planejamento.pdf) | Planejamento inicial do projeto. |
-| [**`Pôster.pdf`**](manuscritos/Pôster.pdf) | Pôster para apresentação e exposição do projeto. |
+| [**`Paper.pdf`**](manuscripts/Paper.pdf) | Final article drafted, covering the entire project development and its results. |
 
 
-## Primeiros passos
+## Getting started
 
-1. Abra o _notebook_ [`Ensemble.ipynb`](Ensemble.ipynb) e execute todas as células.
-2. Na seção de execução, é possível encontrar (i) a execução dos modelos pré-treinados, (ii) a execução do _ensemble_, (iii) a análise dos erros do _ensemble_ (iv) e o teste de ablação realizado para os métodos de alinhamento e de dicionário.
+1. Open the [`Ensemble.ipynb`](artifacts/Ensemble.ipynb) notebook and run all the cells.
+2. In the execution section, it is possible to find (i) the execution of the pre-trained models, (ii) the execution of the ensemble, (iii) the analysis of ensemble errors, and (iv) the ablation test performed.

@@ -162,3 +162,24 @@ In the [`manuscripts`](manuscripts) folder, it is possible to find the following
 
 1. Open the [`Ensemble.ipynb`](artifacts/Ensemble.ipynb) notebook and run all the cells.
 2. In the execution section, it is possible to find (i) the execution of the pre-trained models, (ii) the execution of the ensemble, (iii) the analysis of ensemble errors, and (iv) the ablation test performed.
+
+---
+
+<div align="center">
+    <picture>
+        <source
+            srcset="https://raw.githubusercontent.com/lucas-azdias/PUCPR-SVG/ea4f6a6f371fa7c4b26b84b4ad8e00db2b830b9b/branco/pucpr-simbolo.svg"
+            media="(prefers-color-scheme: dark)"
+            height="30px"
+        />
+        <source
+            srcset="https://raw.githubusercontent.com/lucas-azdias/PUCPR-SVG/ea4f6a6f371fa7c4b26b84b4ad8e00db2b830b9b/cor-primaria/pucpr-simbolo.svg"
+            media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+            height="30px"
+        />
+        <img
+            src="https://raw.githubusercontent.com/lucas-azdias/PUCPR-SVG/ea4f6a6f371fa7c4b26b84b4ad8e00db2b830b9b/cor-primaria/pucpr-simbolo.svg"
+            height="30px"
+        />
+    </picture>
+</div>

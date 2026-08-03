@@ -51,6 +51,7 @@ Supervised by Prof. [Rayson Laroca](https://github.com/raysonlaroca).
 
 </div>
 
+
 ---
 
 ## Team
@@ -70,6 +71,8 @@ The article addresses the challenge of Artistic Text Recognition (ATR), a comple
 
 Experiments conducted on Google Colab with an L4 GPU demonstrated that the proposed approach achieved **89.90% accuracy (WRA)** on the final test set of the **WordArt-V1.5** dataset, a performance that would place it among the top three solutions in the **ICDAR 2024** competition.
 
+
+---
 
 ## ICDAR 2024
 
@@ -137,6 +140,8 @@ Other text recognition models were evaluated during the preliminary experiments.
 | **CornerTransformer** | [GitHub](https://github.com/xdxie/WordArt) | [ArXiv](https://arxiv.org/pdf/2208.00438) |
 
 
+---
+
 ## Artifacts
 
 In the [`artifacts`](artifacts) folder, it is possible to find the following files:
@@ -158,10 +163,13 @@ In the [`manuscripts`](manuscripts) folder, it is possible to find the following
 | [**`Paper.pdf`**](manuscripts/Paper.pdf) | Final article drafted, covering the entire project development and its results. |
 
 
+---
+
 ## Getting started
 
 1. Open the [`Ensemble.ipynb`](artifacts/Ensemble.ipynb) notebook and run all the cells.
 2. In the execution section, it is possible to find (i) the execution of the pre-trained models, (ii) the execution of the ensemble, (iii) the analysis of ensemble errors, and (iv) the ablation test performed.
+
 
 ---
 
@@ -170,16 +178,16 @@ In the [`manuscripts`](manuscripts) folder, it is possible to find the following
         <source
             srcset="https://raw.githubusercontent.com/lucas-azdias/PUCPR-SVG/ea4f6a6f371fa7c4b26b84b4ad8e00db2b830b9b/branco/pucpr-simbolo.svg"
             media="(prefers-color-scheme: dark)"
-            height="30px"
+            height="40px"
         />
         <source
             srcset="https://raw.githubusercontent.com/lucas-azdias/PUCPR-SVG/ea4f6a6f371fa7c4b26b84b4ad8e00db2b830b9b/cor-primaria/pucpr-simbolo.svg"
             media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
-            height="30px"
+            height="40px"
         />
         <img
             src="https://raw.githubusercontent.com/lucas-azdias/PUCPR-SVG/ea4f6a6f371fa7c4b26b84b4ad8e00db2b830b9b/cor-primaria/pucpr-simbolo.svg"
-            height="30px"
+            height="40px"
         />
     </picture>
 </div>
